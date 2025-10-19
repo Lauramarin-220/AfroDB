@@ -7,8 +7,9 @@ const usuarioEnMemoria = {
 // Capturamos el formulario
 const form = document.getElementById("loginForm");
 
+// Escuchamos cuando el formulario se envía
 form.addEventListener("submit", (e) => {
-  e.preventDefault();
+  e.preventDefault(); // Evita que la página se recargue al enviar el formulario
 
   const username = document.getElementById("username").value;
   const password = document.getElementById("password").value;
