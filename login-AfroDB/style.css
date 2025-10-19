@@ -1,0 +1,96 @@
+/* Fondo general */
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+  background-image: url('img/FondoAfroDB.png');
+  background-size: 600px 400px;
+  background-position: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contenedor principal */
+.container {
+  text-align: center;
+  color: #333;
+}
+
+/* Caja del login */
+.login-box {
+  background-color: rgba(245, 224, 246, 0.9);
+  border-radius: 15px;
+  padding: 2rem;
+  width: 300px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgb(15, 10, 6);
+}
+
+/* Logo circular */
+.logo {
+  width: 70px;
+  height: 70px;
+  background-color: #d6b29b;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin: 0 auto 20px;
+}
+
+/* Estilo de inputs */
+.input-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.input-group label {
+  font-size: 0.9rem;
+  color: #1d1d1d;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #1a1a1aba;
+  border-radius: 8px;
+  outline: 2px solid #d6b29b45;
+  font-size: 1rem;
+}
+
+/* Botón */
+.btn {
+  background-color: #d6b29b;
+  color: rgb(36, 35, 35);
+  border: none;
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #c59c84;
+}
+
+/* Texto inferior */
+.register {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.register a {
+  color: #c59c84;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #333;
+}
